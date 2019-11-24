@@ -1,0 +1,1333 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /*========================
+        header
+    =========================*/
+    .header .mainmenu .navbar .nav .nav-item .nav-link {
+        margin-right: 20px;
+    }
+
+    /*========================
+        banner
+    =========================*/
+    .banner .banner-content .part-img {
+        display: none;
+    }
+    .banner .banner-conten .part-text {
+        text-align: center;
+    }
+    .banner .banner-content {
+        padding: 180px 0 235px;
+    }
+
+    .domain .available-domain {
+        display: inline-block;
+    }
+
+    .feature .single-feature .part-text h3 {
+        font-size: 22px;
+    }
+
+    .blog-post .single-blog .part-social a:last-child {
+        display: none;
+    }
+
+    /*========================================
+        dedicated hosting > dedicated hosting plan
+    =========================================*/
+    .price.dedicated-hosting-plan .single-price .part-price {
+        margin: 0;
+        margin-top: 65px;
+        margin-bottom: -65px;
+    }
+    .price.dedicated-hosting-plan .single-price a.start-button {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*========================
+        header
+    =========================*/
+    .header {
+        background: #2f2774;
+        position: initial;
+    }
+    .header:after {
+        display: none;
+    }
+    .header .navbar-toggler {
+        color: #fff;
+        border: 1px solid;
+        height: 45px;
+        width: 45px;
+        font-size: 30px;
+        padding: 0;
+        float: right;
+        margin: 15px 0;
+    }
+    .header .mainmenu .navbar .nav .nav-item .nav-link {
+        padding: 13px 15px;
+        text-align: left;
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(249, 249, 249, 0.1);
+        font-size: 16px;
+    }
+    .header .mainmenu .navbar .nav .nav-item:last-child .nav-link {
+        border-bottom: 0;
+        margin-bottom: 15px;
+    }
+    .header .sign-up-button {
+        display: none;
+    }
+
+    /*========================
+        banner
+    =========================*/
+    .banner .banner-content h1 {
+        font-size: 24px;
+        line-height: 38px;
+        margin-top: -8px;
+        margin-bottom: 11px;
+    }
+    .banner .banner-content p {
+        font-size: 16px;
+    }
+    .banner .banner-content .button-group a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner .banner-content .button-group a:first-child {
+        margin-bottom: 10px;
+    }
+    .banner .banner-content .part-img {
+        display: none;
+    }
+    .banner .banner-content {
+        margin-top: 0;
+        padding: 150px 0;
+    }
+    .banner .banner-content .button-group {
+        margin-top: 34px;
+    }
+
+    /*========================
+        domain
+    =========================*/
+    .domain {
+        background-color: #ffffff;
+    }
+    .domain .search-form {
+        margin: 50px 0;
+        box-shadow: 0px 0px 20px -8px rgb(0, 0, 0);
+    }
+    .domain .search-form input {
+        font-size: 15px;
+        height: 50px;
+        border: 1px solid rgba(110, 120, 255, 0.9);
+        border-radius: 3px;
+        padding: 0 15px;
+    }
+    .domain .search-form .select-buton {
+        width: 100%;
+        position: relative;
+        padding: 0 15px;
+        background: -webkit-linear-gradient(-130deg, #5e7eff 0%, #836fff 30%, #a85fff 100%);
+        height: 50px;
+        border-radius: 3px;
+    }
+    .domain .search-form .select-buton select {
+        font-size: 16px;
+        line-height: 50px;
+        color: #fff;
+    }
+    .domain .search-form .select-buton .icon {
+        right: 15px;
+        top: 50%;
+        color: #ffffff;
+    }
+    .domain .search-form button {
+        height: 50px;
+        font-size: 15px;
+        border-radius: 3px;
+    }
+    
+    /*========================
+        domain available
+    =========================*/
+    .domain .available-domain {
+        display: inline-block;
+    }
+
+    /*========================
+        Price
+    =========================*/
+    .price {
+        padding: 120px 0 90px;
+    }
+    .price .section-title {
+        margin-bottom: 57px;
+    }
+    .price .single-price .part-price {
+        margin: 0 35px;
+    }
+    .price .single-price a.start-button {
+        bottom: 0;
+    }
+    .price .single-price {
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+
+    /*========================
+        service
+    =========================*/
+    .service .section-title {
+        margin-bottom: 53px;
+    }
+    .service .single-service .part-icon {
+        float: none;
+        margin-bottom: 30px;
+    }
+    .service .single-service .part-text h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        feature
+    =========================*/
+    .feature .single-feature .part-text h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        hosting
+    =========================*/
+    .hosting {
+        padding: 120px 0 90px;
+    }
+    .hosting .single-hosting {
+        padding: 25px 30px 24px;
+        margin-bottom: 30px;
+    }
+    .hosting .single-hosting h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        web hosting
+    =========================*/
+    .web-hosting .part-text h2 {
+        font-size: 22px;
+        line-height: 32px
+    }
+    .web-hosting .part-text h4 {
+        font-size: 16px;
+    }
+    .web-hosting .part-text a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .web-hosting .part-img {
+        display: none;
+    }
+
+    /*========================
+        testimonial
+    =========================*/
+    .testimonial .section-title {
+        margin-bottom: 55px;
+    }
+
+    /*========================
+        blog
+    =========================*/
+    .blog-post .single-blog .part-social a:last-child {
+        display: none;
+    }
+
+
+    /*========================
+        footer
+    =========================*/
+    .footer .about-hoster {
+        margin-bottom: 40px;
+    }
+    .footer .usefull-link {
+        margin-bottom: 40px;
+    }
+    /*========================
+        section title
+    =========================*/
+    .section-title h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .section-title h4 {
+        font-size: 16px;
+        margin-bottom: 13px;
+        margin-top: -3px;
+    }
+
+    /*========================
+        breadcrump
+    =========================*/
+    .hoster-breadcrump .breadcrump-title {
+        margin-top: 0px;
+    }
+    .hoster-breadcrump .breadcrump-title h2 {
+        margin-top: -5px;
+        margin-bottom: -8px;
+        font-size: 28px;
+    }
+
+    /*========================================
+        dedicated hosting > dedicated plan
+    =========================================*/
+    .dedicated-plan .plan-table {
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .dedicated-plan .plan-table .table {
+        width: 900px;
+        margin-bottom: 0;
+    }
+    .dedicated-plan .plan-buttons a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .dedicated-plan .plan-buttons a:first-child {
+        margin-bottom: 10px;
+    }
+
+    /*========================================
+        dedicated hosting > dedicated hosting plan
+    =========================================*/
+    .price.dedicated-hosting-plan {
+        padding: 120px 0 90px;
+    }
+    .price.dedicated-hosting-plan .single-price a.start-button {
+        bottom: -30px;
+    }
+    .price.dedicated-hosting-plan .single-price {
+        padding-bottom: 0;
+        margin-bottom: 60px;
+    }
+    .price.dedicated-hosting-plan .shadow-elemnt {
+        position: initial;
+    }
+    .price.dedicated-hosting-plan .single-price {
+        border-left: 1px solid #f1e8ff;
+    }
+    .price.dedicated-hosting-plan .single-price.third {
+        border-right: 1px solid #f1e8ff;
+    }
+    .price .configure-list {
+        display: none;
+    }
+
+    /*========================
+        login
+    =========================*/
+    .hoster-contact .contact-form button.submit-button {
+        left: 0;
+        margin-top: 40px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /*========================
+        header
+    =========================*/
+    .header {
+        background: #2f2774;
+        position: initial;
+    }
+    .header:after {
+        display: none;
+    }
+    .header .navbar-toggler {
+        color: #fff;
+        border: 1px solid;
+        height: 45px;
+        width: 45px;
+        font-size: 30px;
+        padding: 0;
+        float: right;
+        margin: 15px 0;
+    }
+    .header .mainmenu .navbar .nav .nav-item .nav-link {
+        padding: 13px 15px;
+        text-align: left;
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(249, 249, 249, 0.1);
+        font-size: 16px;
+    }
+    .header .mainmenu .navbar .nav .nav-item:last-child .nav-link {
+        border-bottom: 0;
+        margin-bottom: 15px;
+    }
+    .header .sign-up-button {
+        display: none;
+    }
+
+    /*========================
+        banner
+    =========================*/
+    .banner .banner-content h1 {
+        font-size: 24px;
+        line-height: 38px;
+        margin-top: -8px;
+        margin-bottom: 11px;
+    }
+    .banner .banner-content p {
+        font-size: 16px;
+    }
+    .banner .banner-content .button-group a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner .banner-content .button-group a:first-child {
+        margin-bottom: 10px;
+    }
+    .banner .banner-content .part-img {
+        display: none;
+    }
+    .banner .banner-content {
+        margin-top: 0;
+        padding: 150px 0;
+    }
+    .banner .banner-content .button-group {
+        margin-top: 34px;
+    }
+
+    /*========================
+        domain
+    =========================*/
+    .domain {
+        background-color: #ffffff;
+    }
+    .domain .search-form {
+        margin: 50px 0;
+        box-shadow: 0px 0px 20px -8px rgb(0, 0, 0);
+    }
+    .domain .search-form input {
+        font-size: 15px;
+        height: 50px;
+        border: 1px solid rgba(110, 120, 255, 0.9);
+        border-radius: 3px;
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+    .domain .search-form .select-buton {
+        width: 100%;
+        position: relative;
+        padding: 0 15px;
+        background: -webkit-linear-gradient(-130deg, #5e7eff 0%, #836fff 30%, #a85fff 100%);
+        margin-bottom: 10px;
+        height: 50px;
+        border-radius: 3px;
+    }
+    .domain .search-form .select-buton select {
+        font-size: 16px;
+        line-height: 50px;
+        color: #fff;
+    }
+    .domain .search-form .select-buton .icon {
+        right: 15px;
+        top: 50%;
+        color: #ffffff;
+    }
+    .domain .search-form button {
+        height: 50px;
+        font-size: 15px;
+        border-radius: 3px;
+    }
+    
+    /*========================
+        domain available
+    =========================*/
+    .domain .available-domain {
+        display: inline-block;
+    }
+
+    /*========================
+        Price
+    =========================*/
+    .price {
+        padding: 120px 0 90px;
+    }
+    .price .section-title {
+        margin-bottom: 57px;
+    }
+    .price .single-price .part-price {
+        margin: 0 35px;
+    }
+    .price .single-price a.start-button {
+        bottom: 0;
+    }
+    .price .single-price {
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+
+    /*========================
+        service
+    =========================*/
+    .service .section-title {
+        margin-bottom: 53px;
+    }
+    .service .single-service .part-icon {
+        float: none;
+        margin-bottom: 30px;
+    }
+    .service .single-service .part-text h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        feature
+    =========================*/
+    .feature .single-feature .part-text h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        hosting
+    =========================*/
+    .hosting {
+        padding: 120px 0 90px;
+    }
+    .hosting .single-hosting {
+        padding: 25px 30px 24px;
+        margin-bottom: 30px;
+    }
+    .hosting .single-hosting h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        web hosting
+    =========================*/
+    .web-hosting .part-text h2 {
+        font-size: 22px;
+        line-height: 32px
+    }
+    .web-hosting .part-text h4 {
+        font-size: 16px;
+    }
+    .web-hosting .part-text a {
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .web-hosting .part-img {
+        display: none;
+    }
+
+    /*========================
+        testimonial
+    =========================*/
+    .testimonial .section-title {
+        margin-bottom: 55px;
+    }
+
+    /*========================
+        blog
+    =========================*/
+    .footer .about-hoster {
+        margin-bottom: 40px;
+    }
+    .footer .usefull-link {
+        margin-bottom: 40px;
+    }
+    /*========================
+        section title
+    =========================*/
+    .section-title h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .section-title h4 {
+        font-size: 16px;
+        margin-bottom: 13px;
+        margin-top: -3px;
+    }
+    .section-title h2 br {
+        display: none;
+    }
+
+    /*========================
+        breadcrump
+    =========================*/
+    .hoster-breadcrump .breadcrump-title {
+        margin-top: 0px;
+    }
+    .hoster-breadcrump .breadcrump-title h2 {
+        margin-top: -5px;
+        margin-bottom: -8px;
+        font-size: 28px;
+    }
+    /*========================================
+        dedicated hosting > dedicated plan
+    =========================================*/
+    .dedicated-plan .plan-table {
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .dedicated-plan .plan-table .table {
+        width: 900px;
+        margin-bottom: 0;
+    }
+    .dedicated-plan .plan-buttons a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .dedicated-plan .plan-buttons a:first-child {
+        margin-bottom: 10px;
+    }
+
+    /*========================================
+        dedicated hosting > dedicated hosting plan
+    =========================================*/
+    .price.dedicated-hosting-plan {
+        padding: 120px 0 90px;
+    }
+    .price.dedicated-hosting-plan .single-price a.start-button {
+        bottom: -30px;
+    }
+    .price.dedicated-hosting-plan .single-price {
+        padding-bottom: 0;
+        margin-bottom: 60px;
+    }
+    .price.dedicated-hosting-plan .shadow-elemnt {
+        position: initial;
+    }
+    .price.dedicated-hosting-plan .single-price {
+        border-left: 1px solid #f1e8ff;
+    }
+    .price.dedicated-hosting-plan .single-price.third {
+        border-right: 1px solid #f1e8ff;
+    }
+    .price .configure-list {
+        display: none;
+    }
+
+    /*========================
+        login
+    =========================*/
+    .hoster-contact .contact-form button.submit-button {
+        margin-left: 0;
+        left: 0;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    /*========================
+        header
+    =========================*/
+    .header {
+        background: #2f2774;
+        position: initial;
+    }
+    .header:after {
+        display: none;
+    }
+    .header .navbar-toggler {
+        color: #fff;
+        border: 1px solid;
+        height: 45px;
+        width: 45px;
+        font-size: 30px;
+        padding: 0;
+        float: right;
+        margin: 15px 0;
+    }
+    .header .mainmenu .navbar .nav .nav-item .nav-link {
+        padding: 13px 15px;
+        text-align: left;
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(249, 249, 249, 0.1);
+        font-size: 16px;
+    }
+    .header .mainmenu .navbar .nav .nav-item:last-child .nav-link {
+        border-bottom: 0;
+        margin-bottom: 15px;
+    }
+    .header .sign-up-button {
+        display: none;
+    }
+
+    /*========================
+        banner
+    =========================*/
+    .banner .banner-content h1 {
+        font-size: 24px;
+        line-height: 38px;
+        margin-top: -8px;
+        margin-bottom: 11px;
+    }
+    .banner .banner-content p {
+        font-size: 16px;
+    }
+    .banner .banner-content .button-group a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner .banner-content .button-group a:first-child {
+        margin-bottom: 10px;
+    }
+    .banner .banner-content .part-img {
+        display: none;
+    }
+    .banner .banner-content {
+        margin-top: 0;
+        padding: 150px 0;
+    }
+    .banner .banner-content .button-group {
+        margin-top: 34px;
+    }
+
+    /*========================
+        domain
+    =========================*/
+    .domain {
+        background-color: #ffffff;
+    }
+    .domain .search-form {
+        margin: 50px 0;
+        box-shadow: 0px 0px 20px -8px rgb(0, 0, 0);
+    }
+    .domain .search-form input {
+        font-size: 15px;
+        height: 50px;
+        border: 1px solid rgba(110, 120, 255, 0.9);
+        border-radius: 3px;
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+    .domain .search-form .select-buton {
+        width: 100%;
+        position: relative;
+        padding: 0 15px;
+        background: -webkit-linear-gradient(-130deg, #5e7eff 0%, #836fff 30%, #a85fff 100%);
+        margin-bottom: 10px;
+        height: 50px;
+        border-radius: 3px;
+    }
+    .domain .search-form .select-buton select {
+        font-size: 16px;
+        line-height: 50px;
+        color: #fff;
+    }
+    .domain .search-form .select-buton .icon {
+        right: 15px;
+        top: 50%;
+        color: #ffffff;
+    }
+    .domain .search-form button {
+        height: 50px;
+        font-size: 15px;
+        border-radius: 3px;
+    }
+    
+    /*========================
+        domain available
+    =========================*/
+    .domain .available-domain {
+        display: inline-block;
+    }
+
+    /*========================
+        Price
+    =========================*/
+    .price {
+        padding: 120px 0 90px;
+    }
+    .price .section-title {
+        margin-bottom: 57px;
+    }
+    .price .single-price .part-price {
+        margin: 0 35px;
+    }
+    .price .single-price a.start-button {
+        bottom: 0;
+    }
+    .price .single-price {
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+
+    /*========================
+        service
+    =========================*/
+    .service .section-title {
+        margin-bottom: 53px;
+    }
+    .service .single-service .part-icon {
+        float: none;
+        margin-bottom: 30px;
+    }
+    .service .single-service .part-text h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        feature
+    =========================*/
+    .feature .single-feature .part-text h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        hosting
+    =========================*/
+    .hosting {
+        padding: 120px 0 90px;
+    }
+    .hosting .single-hosting {
+        padding: 25px 30px 24px;
+        margin-bottom: 30px;
+    }
+    .hosting .single-hosting h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        web hosting
+    =========================*/
+    .web-hosting .part-text h2 {
+        font-size: 22px;
+        line-height: 32px
+    }
+    .web-hosting .part-text h4 {
+        font-size: 16px;
+    }
+    .web-hosting .part-text a {
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .web-hosting .part-img {
+        display: none;
+    }
+
+    /*========================
+        testimonial
+    =========================*/
+    .testimonial .section-title {
+        margin-bottom: 55px;
+    }
+
+    /*========================
+        blog
+    =========================*/
+    .footer .about-hoster {
+        margin-bottom: 40px;
+    }
+    .footer .usefull-link {
+        margin-bottom: 40px;
+    }
+    /*========================
+        section title
+    =========================*/
+    .section-title h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .section-title h4 {
+        font-size: 16px;
+        margin-bottom: 13px;
+        margin-top: -3px;
+    }
+    .section-title h2 br {
+        display: none;
+    }
+
+    /*========================
+        breadcrump
+    =========================*/
+    .hoster-breadcrump .breadcrump-title {
+        margin-top: 0px;
+    }
+    .hoster-breadcrump .breadcrump-title h2 {
+        margin-top: -5px;
+        margin-bottom: -8px;
+        font-size: 28px;
+    }
+
+    /*========================================
+        dedicated hosting > dedicated plan
+    =========================================*/
+    .dedicated-plan .plan-table {
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .dedicated-plan .plan-table .table {
+        width: 900px;
+        margin-bottom: 0;
+    }
+    .dedicated-plan .plan-buttons a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .dedicated-plan .plan-buttons a:first-child {
+        margin-bottom: 10px;
+    }
+
+    /*========================================
+        dedicated hosting > dedicated hosting plan
+    =========================================*/
+    .price.dedicated-hosting-plan {
+        padding: 120px 0 90px;
+    }
+    .price.dedicated-hosting-plan .single-price a.start-button {
+        bottom: -30px;
+    }
+    .price.dedicated-hosting-plan .single-price {
+        padding-bottom: 0;
+        margin-bottom: 60px;
+    }
+    .price.dedicated-hosting-plan .shadow-elemnt {
+        position: initial;
+    }
+    .price.dedicated-hosting-plan .single-price {
+        border-left: 1px solid #f1e8ff;
+    }
+    .price.dedicated-hosting-plan .single-price.third {
+        border-right: 1px solid #f1e8ff;
+    }
+    .price .configure-list {
+        display: none;
+    }
+
+    /*========================
+        login
+    =========================*/
+    .hoster-contact .contact-form {
+        padding: 26px 25px 30px;
+    }
+    .hoster-contact .contact-form .form-group input.form-control {
+        padding: 10px 20px;
+        height: 50px;
+    }
+    .hoster-contact .contact-form button.login-button {
+        height: 50px;
+    }
+    .hoster-contact .contact-form .form-group label {
+        font-size: 14px;
+    }
+    .hoster-contact .contact-form button.submit-button {
+        left: 0;
+        margin-left: 0;
+        height: 50px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    /*========================
+        faq
+    =========================*/
+    .faq .accordion .card .card-header h5 button:after {
+        display: none;
+    }
+    .faq .accordion .card .card-header h5 button {
+        padding: 0 30px;
+        white-space: normal;
+        line-height: 26px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .faq .accordion .card .card-body {
+        padding-left: 32px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    /*========================
+        header
+    =========================*/
+    .header {
+        background: #2f2774;
+        position: initial;
+    }
+    .header:after {
+        display: none;
+    }
+    .header .navbar-toggler {
+        color: #fff;
+        border: 1px solid;
+        height: 45px;
+        width: 45px;
+        font-size: 30px;
+        padding: 0;
+        float: right;
+        margin: 15px 0;
+    }
+    .header .mainmenu .navbar .nav .nav-item .nav-link {
+        padding: 13px 15px;
+        text-align: left;
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(249, 249, 249, 0.1);
+        font-size: 16px;
+    }
+    .header .mainmenu .navbar .nav .nav-item:last-child .nav-link {
+        border-bottom: 0;
+        margin-bottom: 15px;
+    }
+    .header .sign-up-button {
+        display: none;
+    }
+
+    /*========================
+        banner
+    =========================*/
+    .banner .banner-content h1 {
+        font-size: 24px;
+        line-height: 38px;
+        margin-top: -8px;
+        margin-bottom: 11px;
+    }
+    .banner .banner-content p {
+        font-size: 16px;
+    }
+    .banner .banner-content .button-group a {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner .banner-content .button-group a:first-child {
+        margin-bottom: 10px;
+    }
+    .banner .banner-content .part-img {
+        display: none;
+    }
+    .banner .banner-content {
+        margin-top: 0;
+        padding: 150px 0;
+    }
+    .banner .banner-content .button-group {
+        margin-top: 34px;
+    }
+
+    /*========================
+        domain
+    =========================*/
+    .domain {
+        background-color: #ffffff;
+    }
+    .domain .search-form {
+        margin: 50px 0;
+        box-shadow: 0px 0px 20px -8px rgb(0, 0, 0);
+    }
+    .domain .search-form input {
+        font-size: 15px;
+        height: 50px;
+        border: 1px solid rgba(110, 120, 255, 0.9);
+        border-radius: 3px;
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+    .domain .search-form .select-buton {
+        width: 100%;
+        position: relative;
+        padding: 0 15px;
+        background: -webkit-linear-gradient(-130deg, #5e7eff 0%, #836fff 30%, #a85fff 100%);
+        margin-bottom: 10px;
+        height: 50px;
+        border-radius: 3px;
+    }
+    .domain .search-form .select-buton select {
+        font-size: 16px;
+        line-height: 50px;
+        color: #fff;
+    }
+    .domain .search-form .select-buton .icon {
+        right: 15px;
+        top: 50%;
+        color: #ffffff;
+    }
+    .domain .search-form button {
+        height: 50px;
+        font-size: 15px;
+        border-radius: 3px;
+    }
+    
+    /*========================
+        domain available
+    =========================*/
+    .domain .available-domain {
+        display: block;
+    }
+
+    .domain .available-domain .single-domain{
+        width: 100%;
+    }
+
+    /*========================
+        Price
+    =========================*/
+    .price {
+        padding: 120px 0 90px;
+    }
+    .price .section-title {
+        margin-bottom: 57px;
+    }
+    .price .single-price .part-price {
+        margin: 0 35px;
+    }
+    .price .single-price a.start-button {
+        bottom: 0;
+    }
+    .price .single-price {
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+
+    /*========================
+        service
+    =========================*/
+    .service .section-title {
+        margin-bottom: 53px;
+    }
+    .service .single-service .part-icon {
+        float: none;
+        margin-bottom: 30px;
+    }
+    .service .single-service .part-text h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        feature
+    =========================*/
+    .feature .single-feature .part-text h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        hosting
+    =========================*/
+    .hosting {
+        padding: 120px 0 90px;
+    }
+    .hosting .single-hosting {
+        padding: 25px 30px 24px;
+        margin-bottom: 30px;
+    }
+    .hosting .single-hosting h3 {
+        font-size: 22px;
+    }
+
+    /*========================
+        web hosting
+    =========================*/
+    .web-hosting .part-text h2 {
+        font-size: 22px;
+        line-height: 32px
+    }
+    .web-hosting .part-text h4 {
+        font-size: 16px;
+    }
+    .web-hosting .part-text a {
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .web-hosting .part-img {
+        display: none;
+    }
+
+    /*========================
+        testimonial
+    =========================*/
+    .testimonial .section-title {
+        margin-bottom: 55px;
+    }
+    .testimonial .single-testimonial .part-img {
+        display: none;
+    }
+
+    /*========================
+        blog
+    =========================*/
+    .blog-post .single-blog .part-social a:last-child {
+        display: none;
+    }
+
+    .footer .about-hoster {
+        margin-bottom: 40px;
+    }
+    .footer .usefull-link {
+        margin-bottom: 40px;
+    }
+    /*========================
+        section title
+    =========================*/
+    .section-title h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .section-title h4 {
+        font-size: 16px;
+        margin-bottom: 13px;
+        margin-top: -3px;
+    }
+    .section-title h2 br {
+        display: none;
+    }
+
+    /*========================
+        breadcrump
+    =========================*/
+    .hoster-breadcrump .breadcrump-title {
+        margin-top: 0px;
+    }
+    .hoster-breadcrump .breadcrump-title h2 {
+        margin-top: -5px;
+        margin-bottom: -8px;
+        font-size: 28px;
+    }
+
+    /*========================================
+        dedicated hosting > dedicated plan
+    =========================================*/
+    .dedicated-plan .plan-table {
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .dedicated-plan .plan-table .table {
+        width: 900px;
+        margin-bottom: 0;
+    }
+    .dedicated-plan .plan-buttons a {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .dedicated-plan .plan-buttons a:first-child {
+        margin-bottom: 10px;
+    }
+
+    /*========================================
+        dedicated hosting > dedicated hosting plan
+    =========================================*/
+    .price.dedicated-hosting-plan {
+        padding: 120px 0 90px;
+    }
+    .price.dedicated-hosting-plan .single-price a.start-button {
+        bottom: -30px;
+    }
+    .price.dedicated-hosting-plan .single-price {
+        padding-bottom: 0;
+        margin-bottom: 60px;
+    }
+    .price.dedicated-hosting-plan .shadow-elemnt {
+        position: initial;
+    }
+    .price.dedicated-hosting-plan .single-price {
+        border-left: 1px solid #f1e8ff;
+    }
+    .price.dedicated-hosting-plan .single-price.third {
+        border-right: 1px solid #f1e8ff;
+    }
+    .price .configure-list {
+        display: none;
+    }
+
+    /*========================================
+        vps hosting > pricing plan
+    =========================================*/
+    .vps-pricing-area .plan-buttons a {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .vps-pricing-area .plan-buttons a:first-child {
+        margin-bottom: 10px;
+    }
+
+    /*========================================
+        blog > blog post
+    =========================================*/
+    .blog-post .single-blog .part-text p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .blog-post .single-blog.blog-details .part-text p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .blog-post .single-blog.blog-details .part-text h3 {
+        font-size: 18px;
+    }
+    .blog-post .single-blog.blog-details .part-text .user-img {
+        width: 65px;
+        height: 65px;
+        margin-top: -30px;
+    }
+
+    /*========================
+        login
+    =========================*/
+    .hoster-contact .contact-form {
+        padding: 26px 25px 30px;
+    }
+    .hoster-contact .contact-form .form-group input.form-control {
+        padding: 10px 20px;
+        height: 50px;
+    }
+    .hoster-contact .contact-form button.login-button {
+        width: 100%;
+        height: 50px;
+    }
+    .hoster-contact .contact-form .form-group label {
+        font-size: 14px;
+    }
+    .hoster-contact .contact-form button.submit-button {
+        left: 0;
+        margin-left: 0;
+        height: 50px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    /*========================
+        faq
+    =========================*/
+    .faq .accordion .card .card-header h5 button:after {
+        display: none;
+    }
+    .faq .accordion .card .card-header h5 button {
+        padding: 0 30px;
+        white-space: normal;
+        line-height: 26px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .faq .accordion .card .card-body {
+        padding-left: 32px;
+        padding-right: 30px;
+    }
+
+    /*========================
+        datacenter
+    =========================*/
+    .datacenter-overview .overview-area {
+        padding: 30px;
+    }
+    .datacenter-overview .overview-area .part-text h3 {
+        font-size: 20px;
+    }
+    .datacenter-overview .overview-area .part-video {
+        height: 200px;
+    }
+    .datacenter-overview .overview-area .part-video img {
+        width: auto;
+        height: 100%;
+        max-width: none;
+    }
+}
